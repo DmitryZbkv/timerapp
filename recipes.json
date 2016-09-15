@@ -1,0 +1,156 @@
+{
+  "coffee": {
+    "items": [
+      {
+        "name": "Chemex",
+        "description":"Awesome taste from",
+        "items": [
+          {
+            "name": "3-Cup Chemex",
+            "actions": [
+              {
+                "desc": "Fill pouring kettle with hot filtered water and rinse filter until the glass is heated. Discard water from both.",
+                "nextDesc": "Weigh coffee",
+                "btnText": "Next Step"
+              },
+              {
+                "desc": "Weigh coffee to desired strength (50-57 grams) and grind.",
+                "nextDesc": "Prepare Chemex",
+                "btnText": "Next Step"
+              },
+              {
+                "desc": "Place the chemex on a scale, add coffee, shake to level the coffee bed, zero the scale.",
+                "nextDesc": "Pour 260g of water.",
+                "btnText": "Next Step"
+              },
+              {
+                "desc": "Pour 260g of water.Start in the center and work your way out in concentric circles",
+                "nextDesc": "Steep",
+                "time": 30
+              },
+              {
+                "desc": "Steep",
+                "nextDesc": "Pour water",
+                "time": 30
+              },
+              {
+                "desc": "pour to 520g of water",
+                "nextDesc": "Steep",
+                "time": 30
+              }, 
+              {
+                "desc": "Steep",
+                "nextDesc": "Pour water",
+                "time": 60
+              },
+              {
+                "desc": "pour to 780g of water",
+                "nextDesc": "Steep",
+                "time": 30
+              },
+              {
+                "desc": "Steep",
+                "nextDesc": "Pour water",
+                "time": 120
+              }
+            ]
+          },
+          {
+            "actions": [
+              {
+                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
+                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+              },
+              {
+                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
+                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "time": 10
+              }
+            ],
+            "name": "Winner recipe"
+          }
+        ]
+      },
+      {
+        "name": "Aeropress(R) recipes",
+        "items": [
+          {
+            "actions": [
+              {
+                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
+                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+              },
+              {
+                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
+                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "time": 10
+              }
+            ],
+            "name": "HOT"
+          },
+          {
+            "actions": [
+              {
+                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
+                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+              },
+              {
+                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
+                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "time": 10
+              }
+            ],
+            "name": "COLD"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "actions": [
+              {
+                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
+                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+              },
+              {
+                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
+                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "time": 10
+              }
+            ],
+            "name": "HOT"
+          },
+          {
+            "actions": [
+              {
+                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
+                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+              },
+              {
+                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
+                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
+                "time": 10
+              }
+            ],
+            "name": "COLD"
+          }
+        ],
+        "name": "LATTE"
+      }
+    ]
+  },
+  "strings": {
+    "nextDesc": "Ð¡Ð»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ðµ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ðµ",
+    "exitBtn": "Ð’Ñ‹Ð¹Ñ‚Ð¸",
+    "repeatBtn": "Ð¡Ð²Ð°Ñ€Ð¸Ñ‚ÑŒ ÐµÑ‰Ðµ",
+    "finishTextTitle": "ÐŸÐ¾Ð·Ð´Ñ€Ð°Ð²Ð»ÑÐµÐ¼!",
+    "finishText": "Ð’Ñ‹ ÑÐ²Ð°Ñ€Ð¸Ð»Ð¸ Ð²ÐºÑƒÑÐ½Ñ‹Ð¹ ÐºÐ¾Ñ„Ðµ!",
+    "noInternet": "ÐŸÑ€Ð¾Ð±Ð»ÐµÐ¼Ð° Ñ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð¾Ð¼ Ðº Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚Ñƒ",
+    "internetRepeat": "ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚ÑŒ"
+  }
+}
