@@ -74,21 +74,40 @@
       },
       {
         "name": "Aeropress(R) recipes",
+// <<--Recipe 1, LUKAS ZAHRADNIK, SLOVAKIA-->> 
+// <<--Coffee: 20g, Water: 230g @ 79°C, Brewer: Inverted, Filter: Paper-->>
+// Grind coffee at "7.3" on a Malkoenig EK43
+
         "items": [
           {
             "actions": [
               {
-                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
-                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
-                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+                "desc": "Put coffee and pour 60 gr of water",
+                "nextDesc": "Wiggle",
+                "btnText": "Next"
               },
               {
-                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
-                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
-                "time": 10
+                "desc": "Turbulent wiggle",
+                "nextDesc": "Waiting",
+                "time": 15
+              },
+              {
+                "desc": "Steep",
+                "nextDesc": "Pour water",
+                "time": 30
+              },
+              {
+                "desc": "Pour all the rest water (150gr)",
+                "nextDesc": "Press down",
+                "time": 10,
+              },
+              {
+                "desc": "Press down",
+                "nextDesc": "Enjoy",
+                "time": 45,
               }
             ],
-            "name": "HOT"
+            "name": "Winner: 2015"
           },
           {
             "actions": [
