@@ -3,11 +3,9 @@
     "items": [
       {
         "name": "Chemex",
-        "description":"Awesome taste from",
         "items": [
-          {
-            "name": "3-Cup Chemex",
-            "actions": [
+          {"name": "3-Cups Chemex",
+           "actions": [
               {
                 "desc": "Fill pouring kettle with hot filtered water and rinse filter until the glass is heated. Discard water from both.",
                 "nextDesc": "Weigh coffee",
@@ -55,28 +53,110 @@
               }
             ]
           },
-          {
+          { "name": "6-Cups Recipe",
+
             "actions": [
               {
-                "desc": "Ð’ÑÐºÐ¸Ð¿ÑÑ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
-                "nextDesc": "Ð—Ð°ÑÑ‹Ð¿Ð°Ð½Ð¸Ðµ ÐºÐ¾Ñ„Ðµ",
-                "btnText": "ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ"
+                "desc": "Rinse the filter with ample water",
+                "nextDesc": "Put coffee",
+                "btnText": "Next"
               },
               {
-                "desc": "Ð—Ð°ÑÑ‹Ð¿ÑŒÑ‚Ðµ ÐºÐ¾Ñ„Ðµ",
-                "nextDesc": "ÐžÑÑ‚ÑƒÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð´Ñƒ",
-                "time": 10
+                "desc": "Put 33 grams of coffee into the filter",
+                "nextDesc": "Pour water",
+                "btnText": "Next"
+              },
+              {
+                "desc": "Pour 66 grams of water. Start from the center and go in a clockwise pattern.",
+                "nextDesc": "Waiting",
+                "time": "20"
+              },
+              {
+                "desc": "Waiting",
+                "nextDesc": "Pour water",
+                "time": "40"
+              },
+              {
+                "desc": "Pour water in stages (about 80 grams per time)",
+                "nextDesc": "Swirl the Chemex around",
+                "time": "240"
+              },
+              {
+                "desc": "Swirl the Chemex around",
+                "nextDesc": "Enjoy"
               }
-            ],
-            "name": "Winner recipe"
+            ]           
           }
         ]
       },
       {
+        "name": "EvaSolo",
+        "items": [
+          { "name": "525gramm (16oz) of coffee",
+            "grind":"Coarse",
+            "actions": [
+              {
+                "desc": "Rinse Eva Solo",
+                "nextDesc": "Add Ground Coffee",
+                "btnText": "Next Step"
+              },
+              {
+                "desc": "Add 33 grams of coffee",
+                "nextDesc": "Pour water",
+                "btnText": "Next Step"
+              },
+              {
+                "desc": "525 grams of water",
+                "nextDesc": "Waiting",
+                "btnText": "Next Step"
+              },
+              {
+                "desc": "Steep",
+                "nextDesc": "Stirring",
+                "time": 60
+              },
+              {
+                "desc": "Stir 6 times",
+                "nextDesc": "Pour water",
+                "btnText": "Wait for brewing"
+              },
+              {
+                "desc": "Place the lid and wait for 4 additional minutes",
+                "nextDesc": "Decant Coffee",
+                "time": 240
+              },
+              {
+                "desc": "At 5 minutes total, gently decant the entire brew into another, preheated vessel. Carefully tilt the brewer, not exceeding a 45° angle, and slowly rotate. You will want to leave some of the coffee in the carafe, as the last part of the brew will have a disproportionate amount of silt(coffee fines) and sediment.",
+                "note":"Note that a vigorous and careless pour-off—or multiple pour-offs, can lead to over extraction and excess sediment in the cup.",
+              // нужно добавить обработку notes
+                "nextDesc": "Enjoy"
+              }
+            ]         
+          }
+        ]
+      },
+      {
+        "name": "French Press",
+        "items": [
+          { "name": "415g of water (12 oz) of coffee",
+            "grind":"Very Coarse",
+            "actions": [
+              {
+                "desc": "Rinse Eva Solo",
+                "nextDesc": "Add Ground Coffee",
+                "btnText": "Next Step"
+              },
+              
+            ]         
+          }
+        ]
+      },
+
+      {
         "name": "Aeropress(R) recipes",
-// <<--Recipe 1, LUKAS ZAHRADNIK, SLOVAKIA-->>
-// <<--Coffee: 20g, Water: 230g @ 79°C, Brewer: Inverted, Filter: Paper-->>
-// Grind coffee at "7.3" on a Malkoenig EK43
+\\ <<--Recipe 1, LUKAS ZAHRADNIK, SLOVAKIA-->>
+\\ <<--Coffee: 20g, Water: 230g @ 79°C, Brewer: Inverted, Filter: Paper-->>
+ Grind coffee at "7.3" on a Malkoenig EK43
 
         "items": [
           {
@@ -149,7 +229,7 @@
 \\Marcin Kotwiki, Second Place, Joe’s Coffee, Inverted
 \\Mahlkönig Tanzania Grinder, setting 4.75
 \\17 grams of coffee after sieve
-\\88 Degrees Celsius
+\\ 88 Degrees Celsius
 \\        
         
         "items": [
